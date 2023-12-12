@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFBFFFC;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: none;
+    margin: 0;
+    padding: 28px;
+    height: auto;
+    background-color: rgba(30, 73, 221, 0.99);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    border-radius: none;
+}
+
+  h1 {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-top:-7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(90deg, white, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    height: auto;
+}
+
+.blue-text {
+    color: #0671FF;
+}
+
+.red-text {
+    color: red;
+}
+
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(10px);
+    color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h3 {
+  color:#000000;
+  text-align: center;
+}
+
+h4 {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+p {
+  color : black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.user {
+  overflow: hidden;
+}
+
+.user a {
+  text-decoration: none;
+  padding: 5px;
+  width: auto;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.user a:hover {
+  background-color: #5870F8;
+}
+
+.user a:first-child {
+  float: center;
+}
+
+.user a:nth-child(2) {
+  margin: auto;
+  text-align: center;
+}
+
+.privasi {
+  color: black;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.about {
+  color : black;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+
+footer {
+  color: #000000;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+    
