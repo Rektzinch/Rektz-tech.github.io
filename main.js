@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 // Tombol download tanpa membuka tab baru
                 var downloadButton = document.createElement('button');
-                downloadButton.innerHTML = "Download";
+                downloadButton.innerHTML = "Download? Tekan Titik Tiga Di Sebelah Kanan Video";
                 downloadButton.addEventListener('click', function() {
                     // Gunakan fungsi download tanpa membuka tab baru
                     downloadMedia(postType === "video_post" ? data.video[0] : data.cover[0]);
@@ -66,6 +66,21 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         console.error("Element with ID 'downloadBtn' not found.");
     }
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
 
     // Fungsi untuk melakukan download tanpa membuka tab baru
     function downloadMedia(mediaUrl) {
