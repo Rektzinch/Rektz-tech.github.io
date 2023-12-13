@@ -339,3 +339,7 @@ strong {
   margin: 12px;
   height: auto ;
 }
+
+.powered {
+  text-align: center;
+}
