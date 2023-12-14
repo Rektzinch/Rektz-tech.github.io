@@ -18,26 +18,39 @@ body {
 
 /* Gaya untuk judulna */
 .judulna {
-  font-family: 'Gasoek One', sans-serif;
-  font-size: 40px;
+ font-family: 'Gasoek One', sans-serif;
   text-align: center;
-  color: ghostwhite;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 35px;
+  line-height: 24px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  
 }
 
-/* Gaya untuk tikdwn */
-.tikdwn {
-  color: whitesmoke;
-  font-family: 'Oswald', sans-serif;
-  font-size: 24px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+.container-user {
+  background-color: #368EFF;
+  height: auto;
+  width: auto;
+  border-radius: 1px;
+  margin-top: none;
+  padding: 20px;
+  margin: none;
+  box-shadow: 0 0 3px rgba(1, 2, 1, 1.2);
+  display: block;
+float: none;
+position: static;
+font-size: 16px;
+line-height: 24px;
+  
 }
+
 
 /* Gaya untuk h3 */
 h3 {
   color: ghostwhite;
   text-align: center;
   font-size: 16px;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1)
 }
 
 /* Gaya untuk input URL */
@@ -58,7 +71,7 @@ main {
 
 /* Gaya untuk input umum */
 input {
-  width: 100%;
+  width: 80%;
   padding: 10px;
   margin-bottom: 10px;
   border: none;
@@ -77,7 +90,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 
 button:hover {
@@ -86,11 +99,16 @@ button:hover {
 
 /* Gaya untuk tombol download */
 #downloadBtn {
-  width: 138px;
-  font-family: 'Gasoek One', sans-serif;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
-  background-color: #252E69;
-  font-size: 18px;
+  width: 270px;
+font-family: 'Passion One', sans-serif;
+  background-color: #4856ED;
+  font-size: 28px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+#downloadBtn:active {
+  background-color: red;
+  
 }
 
 /* Gaya untuk hasil */
@@ -180,36 +198,6 @@ img {
   margin: auto;
 }
 
-/* Gaya untuk teks tanpa batas */
-.tanpa-batas {
-  color: #252E69;
-  text-align: center;
-  font-size: 15px;
-  font-family: 'Bebas Neue', sans-serif;
-}
-
-/* Gaya untuk teks premi */
-.premi {
-  color: #252E69;
-  text-align: center;
-  font-size: 15px;
-  font-family: 'Bebas Neue', sans-serif;
-}
-
-/* Gaya untuk teks HD */
-.Hd {
-  color: #252E69;
-  text-align: center;
-  font-size: 15px;
-  font-family: 'Bebas Neue', sans-serif;
-}
-
-/* Gaya untuk mediaa */
-.mediaa {
-  width: 10px;
-  height: 10px;
-  float: left;
-}
 
 /* Gaya untuk card */
 .card {
@@ -224,7 +212,7 @@ img {
 
 /* Gaya untuk accordion */
 .accordion {
-  background-color: #4856EDED;
+  background-color: #368EFF;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -254,7 +242,7 @@ img {
 /* Gaya untuk how */
 .how {
   color: black;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .mengapaa {
@@ -275,29 +263,30 @@ img {
 }
 
 /* Untuk Footer */
-footer {
+#footer {
 background-color: #252E69;
-height: 450px;
+height: 500px;
 width: auto;
 display: block;
 float: none;
 position: static;
+
 }
 
 .akhire {
  text-align: left;
  font-family: 'Gasoek One', sans-serif;
-font-size: 40px;
+font-size: 35px;
 margin: 12px;
 line-height: 18.375px;
 }
 
 .akhiree {
- font-family:'Yanone Kaffeesatz', sans-serif;
-  color: whitesmoke;
+ font-family: 'Afacad', sans-serif;
+  color: white;
   text-align: left;
   margin: 12px;
-  font-size: 12.25px;
+  font-size: 13px;
 line-height: 18.375px;
 }
 
@@ -308,30 +297,33 @@ line-height: 18.375px;
 
 strong {
   text-align: center;
-  font-size: 13px;
+  font-size: 16px;
   margin-left: 12px;
+ font-family: 'Oswald', sans-serif;
   
 }
 
 .policy {
- color: white;
+ color: #515CD7;
  font-family: 'Bebas Neue', sans-serif;
- font-size: 30px;
- text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
- border-radius: 12px
- 
+ font-size: 25px;
+ border-radius: 12px;
+ text-align: left;
+ margin:15px;
 }
 
 #footer-policy {
-  background-color: #252E69;
-  height: 100px; /* Sesuaikan dengan tinggi yang diinginkan */
+  background-color: white;
+  height: auto;
   width: auto;
-  display: block;
-  float: none;
-  position: static;
-  text-align: center ;
-  
+  border-radius: 1px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 10px; /* Sesuaikan nilai ini dengan jarak dari kiri layar */
+  margin-right: 10px; /* Sesuaikan nilai ini dengan jarak dari kanan layar */
 }
+
 
 
 #endd{
@@ -341,5 +333,136 @@ strong {
 }
 
 .powered {
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.langkah {
+    width: 80%;
+    max-width: 60px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2A36B9;
+}
+
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#main2 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #368EFF;
+    margin: 20px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
+   
+    
+}
+
+.steps {
+    margin-bottom: 20px;
+}
+
+.steps123 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.step-number {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    color: #4856ED;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+
+.stepstep {
+  color: white;
+font-family: Impact;
+text-align:left;
+font-size: 15px;
+
+}
+
+.bingung {
+  color: #1E29A8;
+  font-family: 'Oswald', sans-serif;
+  margin: 10px;
+  text-align: center;
+}
+
+.jawab {
+  color: #1E29A8;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  padding:10px;
+  font-size: 18px;
+}
+
+h3 {
+   color: white;
+   font-size: 17px;
+   font-family: 'Oswald', sans-serif;
+}
+
+.wm {
+   font-family: 'Oswald', sans-serif;
+   color: #1E29A8;
+   text-align: center;
+   font-size: 17px;
+   
+}
+
+.container-bijak {
+ background-color: white;
+ color: black;
+}
+
+.bijak {
+ color: black;
+ font-size: 15px;
+ text-align: left;
+ margin: 12px
+}
+
+.bijakk {
+ color: black;
+ font-size: 20px;
+ text-align: left;
+ margin: 12px
+}
+
+.thanks {
+  color: #1E29A8;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
   text-align: center;
 }

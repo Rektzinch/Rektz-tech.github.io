@@ -5,6 +5,14 @@ document.addEventListener('DOMContentLoaded', function() {
         downloadBtn.addEventListener('click', function() {
             var urlInput = document.getElementById('urlInput').value;
             var resultDiv = document.getElementById('result');
+            var loadingDiv = document.getElementById('loading');
+
+            // Tampilkan animasi loading
+            loadingDiv.style.display = "block";
+            // Atur ukuran teks, jenis font, dan warna loading
+            loadingDiv.style.fontSize = "20px";
+            loadingDiv.style.fontFamily = "verdana";
+            loadingDiv.style.color = "white";
 
             var apiUrl = "https://tiktok-full-info-without-watermark.p.rapidapi.com/vid/index?url=" + urlInput;
 
@@ -58,29 +66,34 @@ document.addEventListener('DOMContentLoaded', function() {
                 downloadButton.style.margin = "0 auto";
 
                 resultDiv.appendChild(downloadButton);
+
+                // Sembunyikan animasi loading setelah mendapatkan hasil dari API
+                loadingDiv.style.display = "none";
             })
             .catch(error => {
-                resultDiv.innerHTML = "Error: " + error;
+                resultDiv.innerHTML = "Error: MASUKAN URL DULU DONG KAKAK:)";
+                // Sembunyikan animasi loading jika terjadi kesalahan
+                loadingDiv.style.display = "none";
             });
         });
     } else {
         console.error("Element with ID 'downloadBtn' not found.");
     }
 
-var acc = document.getElementsByClassName("accordion");
-var i;
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
     }
-  });
-}
 
     // Fungsi untuk melakukan download tanpa membuka tab baru
     function downloadMedia(mediaUrl) {
