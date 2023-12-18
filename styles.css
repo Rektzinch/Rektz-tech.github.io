@@ -1,0 +1,485 @@
+/* Gaya umum untuk body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FAFBFFFC;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  color: #FFFFFF;
+}
+
+/* Gaya untuk logo pada navbar */
+.navbar-brand img {
+  margin: auto;
+  width: 100px;
+  height: auto;
+}
+
+/* Gaya untuk judulna */
+.judulna {
+ font-family: 'Gasoek One', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  line-height: 24px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  
+}
+
+.container-user {
+  background-color: #0075FF;
+  height: auto;
+  width: auto;
+  border-radius: 1px;
+  margin-top: none;
+  padding: 20px;
+  margin: none;
+  box-shadow: 0 0 3px rgba(1, 2, 1, 1.2);
+  display: block;
+float: none;
+position: static;
+font-size: 16px;
+line-height: 24px;
+filter: brightness(95%);
+margin-bottom: 15px;
+  
+}
+
+
+/* Gaya untuk h3 */
+h3 {
+  color: ghostwhite;
+  text-align: center;
+  font-size: 16px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+
+/* Gaya untuk input URL */
+#urlInput {
+  color: black;
+}
+
+/* Gaya untuk header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Gaya untuk main content */
+main {
+  text-align: center;
+}
+
+/* Gaya untuk input umum */
+input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  backdrop-filter: blur(10px);
+  color: red;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Gaya untuk tombol umum */
+button {
+  padding: 10px 20px;
+  background-color: #E75353;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Gaya untuk tombol download */
+#downloadBtn {
+  width: 200;
+font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #E1229C;
+  font-size: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  color: white;
+  filter: brightness(97%);
+  
+}
+
+#downloadBtn:active {
+  background-color: red;
+  
+}
+
+/* Gaya untuk hasil */
+#result {
+  margin-top: 20px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  
+  
+}
+
+/* Gaya untuk section */
+section {
+  margin-top: 20px;
+}
+
+/* Gaya untuk h4 */
+h4 {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 17px;
+  margin: 12px;
+ 
+}
+
+h5 {
+ color: black;
+ font-size: 17px;
+ margin: 12px;
+ text-align: left;
+}
+
+/* Gaya untuk paragraf */
+p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Gaya untuk user link */
+.user {
+  overflow: hidden;
+}
+
+.user a {
+  text-decoration: none;
+  padding: 5px;
+  width: auto;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.user a:hover {
+  background-color: #5870F8;
+}
+
+.user a:first-child {
+  float: center;
+}
+
+.user a:nth-child(2) {
+  margin: auto;
+  text-align: center;
+}
+
+/* Gaya untuk privasi */
+.privasi {
+  color: black;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin: 12px;
+}
+
+/* Gaya untuk about */
+.about {
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin: 22px;
+}
+
+/* Gaya untuk gambar */
+img {
+  width: 105px;
+  height: 105px;
+  display: block;
+  margin: auto;
+}
+
+
+/* Gaya untuk card */
+.card {
+  float: left;
+}
+
+/* Gaya untuk card header */
+.card-header {
+  color: #3745E0;
+  height: auto;
+}
+
+/* Gaya untuk accordion */
+.accordion {
+  background-color: #0075FF;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-bottom: 8px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.active,
+.accordion:hover {
+  background-color: #4856EDED;
+}
+
+/* Gaya untuk panel accordion */
+.panel {
+  padding: 0 15px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Gaya untuk how */
+.how {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.mengapaa {
+ color: #1E29A8;
+ font-family: 'Oswald', sans-serif;
+ text-align: center;
+}
+
+/* Gaya untuk ikon sosial media */
+.social-media-icon {
+  display: block; 
+  margin-bottom: 12px;
+  margin: 12px;
+}
+
+.social-media-icon .fab {
+  font-size: 30px;
+}
+
+/* Untuk Footer */
+#footer {
+background-color: #1c1e22;
+height: 500px;
+width: auto;
+display: block;
+float: none;
+position: static;
+
+}
+
+.akhire {
+ text-align: left;
+ font-family: 'Gasoek One', sans-serif;
+font-size: 35px;
+margin: 12px;
+line-height: 18.375px;
+}
+
+.akhiree {
+ font-family: 'Afacad', sans-serif;
+  color: white;
+  text-align: left;
+  margin: 12px;
+  font-size: 13px;
+line-height: 18.375px;
+}
+
+.muted {
+ text-align: left;
+ margin: 12px;
+}
+
+strong {
+  text-align: center;
+  font-size: 16px;
+  margin-left: 12px;
+ font-family: 'Oswald', sans-serif;
+  
+}
+
+.policy {
+ color: #515CD7;
+ font-family: 'Bebas Neue', sans-serif;
+ font-size: 25px;
+ border-radius: 12px;
+ text-align: left;
+ margin:15px;
+}
+
+#footer-policy {
+  background-color: white;
+  height: auto;
+  width: auto;
+  border-radius: 1px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 10px; /* Sesuaikan nilai ini dengan jarak dari kiri layar */
+  margin-right: 10px; /* Sesuaikan nilai ini dengan jarak dari kanan layar */
+}
+
+
+
+#endd{
+  text-align: center;
+  margin: 12px;
+  height: auto ;
+}
+
+.powered {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  padding: 12px;
+  background-color: #1c1e22;
+}
+
+
+.langkah {
+    width: 80%;
+    max-width: 60px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2A36B9;
+}
+
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#main2 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #0075FF;
+    margin: 20px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
+   
+    
+}
+
+.steps {
+    margin-bottom: 20px;
+}
+
+.steps123 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.step-number {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    color: #4856ED;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+
+.stepstep {
+  color: white;
+font-family: 'Plus Jakarta Sans', sans-serif;
+text-align:left;
+font-size: 15px;
+
+}
+
+.bingung {
+  color: #1E29A8;
+  font-family: 'Oswald', sans-serif;
+  margin: 10px;
+  text-align: center;
+}
+
+.jawab {
+  color: #1E29A8;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center;
+  padding:10px;
+  font-size: 19px;
+}
+
+h3 {
+   color: white;
+   font-size: 17px;
+   font-family: 'Oswald', sans-serif;
+}
+
+.wm {
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   color: #1E29A8;
+   text-align: center;
+   font-size: 16.5px;
+   
+}
+
+.container-bijak {
+ background-color: white;
+ color: black;
+}
+
+.bijak {
+ color: black;
+ font-size: 15px;
+ text-align: left;
+ margin: 12px
+}
+
+.bijakk {
+ color: black;
+ font-size: 20px;
+ text-align: left;
+ margin: 12px
+}
+
+.thanks {
+  color: #1E29A8;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  text-align: center;
+}
+
+.sub {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
