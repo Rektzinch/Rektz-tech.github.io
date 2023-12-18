@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 loadingDiv.style.display = "none";
             })
             .catch(error => {
-                resultDiv.innerHTML = "Error: MASUKAN URL DULU DONG KAKAK:)";
+                resultDiv.innerHTML = "Anda Belum Memasukkan Url!";
                 // Sembunyikan animasi loading jika terjadi kesalahan
                 loadingDiv.style.display = "none";
             });

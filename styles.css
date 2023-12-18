@@ -28,7 +28,7 @@ body {
 }
 
 .container-user {
-  background-color: #368EFF;
+  background-color: #0075FF;
   height: auto;
   width: auto;
   border-radius: 1px;
@@ -41,6 +41,8 @@ float: none;
 position: static;
 font-size: 16px;
 line-height: 24px;
+filter: brightness(95%);
+margin-bottom: 15px;
   
 }
 
@@ -50,8 +52,10 @@ h3 {
   color: ghostwhite;
   text-align: center;
   font-size: 16px;
-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1)
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  font-family: 'Space Grotesk', sans-serif;
 }
+
 
 /* Gaya untuk input URL */
 #urlInput {
@@ -85,8 +89,8 @@ input {
 /* Gaya untuk tombol umum */
 button {
   padding: 10px 20px;
-  background-color: #F16262;
-  color: #fff;
+  background-color: #E75353;
+  color: whitesmoke;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -99,11 +103,14 @@ button:hover {
 
 /* Gaya untuk tombol download */
 #downloadBtn {
-  width: 270px;
-font-family: 'Passion One', sans-serif;
-  background-color: #4856ED;
-  font-size: 28px;
+  width: 200;
+font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #E1229C;
+  font-size: 20px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  color: white;
+  filter: brightness(97%);
+  
 }
 
 #downloadBtn:active {
@@ -114,6 +121,9 @@ font-family: 'Passion One', sans-serif;
 /* Gaya untuk hasil */
 #result {
   margin-top: 20px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  
+  
 }
 
 /* Gaya untuk section */
@@ -212,7 +222,7 @@ img {
 
 /* Gaya untuk accordion */
 .accordion {
-  background-color: #368EFF;
+  background-color: #0075FF;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -264,7 +274,7 @@ img {
 
 /* Untuk Footer */
 #footer {
-background-color: #252E69;
+background-color: #1c1e22;
 height: 500px;
 width: auto;
 display: block;
@@ -335,6 +345,9 @@ strong {
 .powered {
   text-align: center;
   font-size: 15px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  padding: 12px;
+  background-color: #1c1e22;
 }
 
 
@@ -361,7 +374,7 @@ p {
 #main2 {
     padding: 20px;
     border-radius: 10px;
-    background-color: #368EFF;
+    background-color: #0075FF;
     margin: 20px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
    
@@ -376,7 +389,7 @@ p {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     
 }
 
@@ -406,7 +419,7 @@ li {
 
 .stepstep {
   color: white;
-font-family: Impact;
+font-family: 'Plus Jakarta Sans', sans-serif;
 text-align:left;
 font-size: 15px;
 
@@ -421,10 +434,10 @@ font-size: 15px;
 
 .jawab {
   color: #1E29A8;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   text-align: center;
   padding:10px;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 h3 {
@@ -434,10 +447,10 @@ h3 {
 }
 
 .wm {
-   font-family: 'Oswald', sans-serif;
+   font-family: 'Plus Jakarta Sans', sans-serif;
    color: #1E29A8;
    text-align: center;
-   font-size: 17px;
+   font-size: 16.5px;
    
 }
 
@@ -465,4 +478,8 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px;
   text-align: center;
+}
+
+.sub {
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
