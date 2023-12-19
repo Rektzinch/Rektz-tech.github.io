@@ -28,7 +28,7 @@ body {
 }
 
 .container-user {
-  background-color: #5025D1;
+  background-color: #673DC4;
   height: auto;
   width: auto;
   border-radius: 1px;
@@ -41,7 +41,7 @@ float: none;
 position: static;
 font-size: 16px;
 line-height: 24px;
-filter: brightness(95%);
+filter: brightness(98%);
 margin-bottom: 15px;
   
 }
@@ -103,10 +103,10 @@ button:hover {
 
 /* Gaya untuk tombol download */
 #downloadBtn {
-  width: 200;
+  width: auto;
 font-family: 'Plus Jakarta Sans', sans-serif;
-  background-color: #E1229C;
-  font-size: 20px;
+  background-color: #4A80EC;
+  font-size: 15px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
   color: white;
   filter: brightness(97%);
@@ -374,7 +374,7 @@ p {
 #main2 {
     padding: 20px;
     border-radius: 10px;
-    background-color: #0075FF;
+    background-color: #7444DD;
     margin: 20px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
    
