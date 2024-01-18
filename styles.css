@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #FAFBFFFC;
+  background-color: #1c2130;
   background-size: cover;
   backdrop-filter: blur(10px);
   color: #FFFFFF;
@@ -20,7 +20,7 @@ body {
 .judulna {
  font-family: 'Gasoek One', sans-serif;
   text-align: center;
-  color: white;
+  color: black;
   font-size: 35px;
   line-height: 24px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -28,7 +28,8 @@ body {
 }
 
 .container-user {
-  background-color: #673DC4;
+  background-color: rgb(16 16 16);
+  border: 1px solid rgb(255 255 255 / 5%);
   height: auto;
   width: auto;
   border-radius: 1px;
@@ -49,17 +50,24 @@ margin-bottom: 15px;
 
 /* Gaya untuk h3 */
 h3 {
-  color: ghostwhite;
+  
   text-align: center;
   font-size: 16px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-  font-family: 'Space Grotesk', sans-serif;
+ 
+  
 }
 
 
 /* Gaya untuk input URL */
 #urlInput {
   color: black;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 /* Gaya untuk header */
@@ -89,7 +97,7 @@ input {
 /* Gaya untuk tombol umum */
 button {
   padding: 10px 20px;
-  background-color: #E75353;
+  background-color: red;
   color: whitesmoke;
   border: none;
   border-radius: 5px;
@@ -98,23 +106,34 @@ button {
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #0873FF;
 }
 
 /* Gaya untuk tombol download */
 #downloadBtn {
-  width: auto;
-font-family: 'Plus Jakarta Sans', sans-serif;
-  background-color: #4A80EC;
-  font-size: 15px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-  color: white;
+font-family: sans-serif;
   filter: brightness(97%);
+  width: 100%;
+  height: 40px;
+  border: 0;
+  background: #1c2130;
+  border-radius: 10px;
+  outline: none;
+  color: white-space ;
+  cursor: pointer;
   
 }
 
 #downloadBtn:active {
   background-color: red;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  background: #dc143c;
+  border-radius: 7px;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
   
 }
 
@@ -141,99 +160,45 @@ h4 {
  
 }
 
-h5 {
- color: black;
- font-size: 17px;
- margin: 12px;
- text-align: left;
-}
 
-/* Gaya untuk paragraf */
-p {
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  text-align: center;
-}
-
-/* Gaya untuk user link */
-.user {
-  overflow: hidden;
-}
-
-.user a {
-  text-decoration: none;
-  padding: 5px;
+.form_container {
   width: auto;
-  box-sizing: border-box;
-  display: inline-block;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 50px 40px 20px 40px;
+  background-color: #3c38ff;
+  border: 1px solid rgb(255 255 255 / 5%);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+font-family: "Inter", sans-serif;
+
 }
 
-.user a:hover {
-  background-color: #5870F8;
-}
-
-.user a:first-child {
-  float: center;
-}
-
-.user a:nth-child(2) {
-  margin: auto;
-  text-align: center;
-}
-
-/* Gaya untuk privasi */
-.privasi {
-  color: black;
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  margin: 12px;
-}
-
-/* Gaya untuk about */
-.about {
-  color: black;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  margin: 22px;
-}
-
-/* Gaya untuk gambar */
-img {
-  width: 105px;
-  height: 105px;
-  display: block;
-  margin: auto;
-}
-
-
-/* Gaya untuk card */
-.card {
-  float: left;
-}
-
-/* Gaya untuk card header */
-.card-header {
-  color: #3745E0;
-  height: auto;
+.mengapaa {
+ color: #FFFFFF;
+ font-family: 'Oswald', sans-serif;
+ text-align: center;
 }
 
 /* Gaya untuk accordion */
 .accordion {
-  background-color: #0075FF;
+  background-color: #3c38ff;
   color: white;
   cursor: pointer;
-  padding: 18px;
+  padding: 15px;
   width: 100%;
+  height: 80%;
   border: none;
-  text-align: left;
+  text-align: center;
   outline: none;
   font-size: 15px;
   transition: 0.4s;
   margin-bottom: 8px;
   font-family: 'Oswald', sans-serif;
+  
 }
 
 .active,
@@ -252,132 +217,28 @@ img {
 /* Gaya untuk how */
 .how {
   color: black;
-  font-family: Arial, Helvetica, sans-serif
-}
-
-.mengapaa {
- color: #1E29A8;
- font-family: 'Oswald', sans-serif;
- text-align: center;
-}
-
-/* Gaya untuk ikon sosial media */
-.social-media-icon {
-  display: block; 
-  margin-bottom: 12px;
-  margin: 12px;
-}
-
-.social-media-icon .fab {
-  font-size: 30px;
-}
-
-/* Untuk Footer */
-#footer {
-background-color: #1c1e22;
-height: 500px;
-width: auto;
-display: block;
-float: none;
-position: static;
-
-}
-
-.akhire {
- text-align: left;
- font-family: 'Gasoek One', sans-serif;
-font-size: 35px;
-margin: 12px;
-line-height: 18.375px;
-}
-
-.akhiree {
- font-family: 'Afacad', sans-serif;
-  color: white;
-  text-align: left;
-  margin: 12px;
-  font-size: 13px;
-line-height: 18.375px;
-}
-
-.muted {
- text-align: left;
- margin: 12px;
-}
-
-strong {
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  font-size: 16px;
-  margin-left: 12px;
- font-family: 'Oswald', sans-serif;
-  
 }
 
-.policy {
- color: #515CD7;
- font-family: 'Bebas Neue', sans-serif;
- font-size: 25px;
- border-radius: 12px;
- text-align: left;
- margin:15px;
-}
-
-#footer-policy {
-  background-color: white;
-  height: auto;
+.container_batas {
   width: auto;
-  border-radius: 1px;
-  padding: 20px;
-  font-size: 16px;
-  line-height: 24px;
-  margin-left: 10px; /* Sesuaikan nilai ini dengan jarak dari kiri layar */
-  margin-right: 10px; /* Sesuaikan nilai ini dengan jarak dari kanan layar */
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #233142;
+  filter: brightness(60%);
 }
 
-
-
-#endd{
-  text-align: center;
-  margin: 12px;
-  height: auto ;
-}
-
-.powered {
-  text-align: center;
-  font-size: 15px;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  padding: 12px;
-  background-color: #1c1e22;
-}
-
-
-.langkah {
-    width: 80%;
-    max-width: 60px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #2A36B9;
-}
-
-
-h1 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.5;
-}
 
 #main2 {
     padding: 20px;
-    border-radius: 10px;
-    background-color: #7444DD;
+    background-color: #3c38ff;
     margin: 20px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
-   
+   border-radius: 10px;
     
 }
 
@@ -390,6 +251,8 @@ p {
     font-weight: bold;
     margin-bottom: 5px;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
     
 }
 
@@ -425,61 +288,65 @@ font-size: 15px;
 
 }
 
-.bingung {
-  color: #1E29A8;
-  font-family: 'Oswald', sans-serif;
-  margin: 10px;
-  text-align: center;
+.bodyy {
+  background-color: #1c2130;
 }
 
-.jawab {
-  color: #1E29A8;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  text-align: center;
-  padding:10px;
-  font-size: 19px;
+.spasi {
+  width: auto;
+  height: 120px;
+  
 }
 
-h3 {
-   color: white;
-   font-size: 17px;
-   font-family: 'Oswald', sans-serif;
+.spasii {
+  margin-bottom: 80px;
 }
 
-.wm {
-   font-family: 'Plus Jakarta Sans', sans-serif;
-   color: #1E29A8;
-   text-align: center;
-   font-size: 16.5px;
-   
-}
-
-.container-bijak {
- background-color: white;
- color: black;
-}
-
-.bijak {
- color: black;
- font-size: 15px;
- text-align: left;
- margin: 12px
-}
-
-.bijakk {
- color: black;
+.gamon {
+ text-align: center;
  font-size: 20px;
- text-align: left;
- margin: 12px
 }
 
-.thanks {
-  color: #1E29A8;
-  font-family: Arial, Helvetica, sans-serif;
+.gamonn {
+  width: auto;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: red;
+  
+}
+
+.stop {
+  font-size: 13px;
+  text-align: left;
   margin: 10px;
-  text-align: center;
 }
 
-.sub {
+#footer-policy {
+  text-align: center;
+  font-size: 15px;
   font-family: 'Plus Jakarta Sans', sans-serif;
+  padding: 12px;
+  background-color: #1c1e22;
+}
+
+
+.container_batass {
+  width: 110px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FCFDFF;
+  filter: brightness(60%);
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
 }

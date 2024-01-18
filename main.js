@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
             var resultDiv = document.getElementById('result');
             var loadingDiv = document.getElementById('loading');
 
-            // Tampilkan animasi loading
+            
             loadingDiv.style.display = "block";
-            // Atur ukuran teks, jenis font, dan warna loading
+           
             loadingDiv.style.fontSize = "20px";
             loadingDiv.style.fontFamily = "verdana";
             loadingDiv.style.color = "white";
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .then(response => response.json())
             .then(data => {
-                // Tidak menampilkan deskripsi dari API
+               
 
                 var postType = data.post_type;
 
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     videoElement.style.height = "6cm";
                     videoElement.style.display = "block";
                     videoElement.style.margin = "0 auto"; // Tengahkan elemen
-                    videoElement.style.marginBottom = "15px"; // Tambahkan spasi di bawah elemen
+                    videoElement.style.marginBottom = "15px"; 
 
                     resultDiv.innerHTML = "";
                     resultDiv.appendChild(videoElement);
@@ -71,8 +71,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 loadingDiv.style.display = "none";
             })
             .catch(error => {
-                resultDiv.innerHTML = "Anda Belum Memasukkan Url!";
-                // Sembunyikan animasi loading jika terjadi kesalahan
+                resultDiv.innerHTML = "Yang Mulia Belum Memasukkan Url ";
+                
                 loadingDiv.style.display = "none";
             });
         });
