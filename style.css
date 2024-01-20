@@ -1,0 +1,262 @@
+body {
+    font-size: 15pt;
+    filter: brightness(98%);
+    border-radius: 20px;
+    display: fit-content;
+}
+.custom-shape-divider-top-1705662126 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transrm: rotate(180deg);
+}
+
+.custom-shape-divider-top-1705662126 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1705662126 .shape-fill {
+    fill: #3C38FF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1705662126 svg {
+        width: calc(145% + 1.3px);
+        height: 63px;
+    }
+}
+
+/* Gaya untuk input URL */
+#urlInput {
+  color: black;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 10px;
+  filter: drop-shadow(1px 3px 2px black);
+}
+
+/* Gaya untuk header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Gaya untuk main content */
+main {
+  text-align: center;
+}
+
+/* Gaya untuk input umum */
+input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #3c38ff;
+  backdrop-filter: blur(10px);
+  color: red;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Gaya untuk tombol umum */
+button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+button:hover {
+  background-color: #3c38ff;
+}
+
+/* Gaya untuk tombol download */
+#downloadBtn {
+font-family: sans-serif;
+  filter: brightness(97%);
+  width: 95%;
+  height: auto;
+  border: 0;
+  background: #3c38ff;
+  border-radius: 10px;
+  font-size: 18px;
+  outline: none;
+  color: white-space ;
+  cursor: pointer;
+  filter: drop-shadow(1px 3px 2px black);
+  
+}
+
+#downloadBtn:active {
+  background-color: red;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  background: #dc143c;
+  border-radius: 7px;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+  
+}
+
+/* Gaya untuk hasil */
+#result {
+  margin-top: 20px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  
+  
+}
+
+/* Gaya untuk section */
+section {
+  margin-top: 20px;
+}
+
+
+
+.form_container {
+  width: auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 18px;
+  justify-content: center;
+  gap: 15px;
+  padding: 50px 40px 20px 40px;
+  border: 1px solid rgb(255 255 255 / 5%);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+font-family: "Inter", sans-serif;
+
+
+}
+
+.sub {
+  font-size: 15px;
+}
+
+:root {
+  --background: #3C343D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: var(--background);
+}
+
+.gallery {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 800px;
+}
+
+.card {
+  position: relative;
+  left: 0px;
+  width: 80px;
+  border-radius: 16px;
+  height: 360px;
+  overflow: hidden;
+  background-color: var(--background);
+  transition: 0.4s ease-in-out;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+  flex: 0.25;
+}
+
+.card img {
+  height: 360px;
+}
+
+.card:hover {
+  flex: 2;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.sub {
+  font-size: 18px;
+}
+
+.custom-shape-divider-top-1705730784 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1705730784 svg {
+    position: relative;
+    display: block;
+    width: calc(271% + 1.3px);
+    height: 96px;
+}
+
+.custom-shape-divider-top-1705730784 .shape-fill {
+    fill: #004EFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1705730784 svg {
+        width: calc(164% + 1.3px);
+        height: 72px;
+    }
+}
+
+
+
+.footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+  .akhir {
+    width: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+    color: #fff;
+    font-size: 12px;
+  }
+  
+ .hr {
+    border-radius: 22px;
+  }
